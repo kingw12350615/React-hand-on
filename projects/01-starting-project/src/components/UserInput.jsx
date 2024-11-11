@@ -13,7 +13,7 @@ export default function UserInput({ onChange, userInput }) {
             </p>
             <p>
                 <label>ANNUAL INVESTMENT</label>
-                <input type="number" require value={userInput.annualInvestment} onChange={e => onChange("annualInvestment", e.target.value)} />
+                <input type="number" required value={userInput.annualInvestment} onChange={e => onChange("annualInvestment", e.target.value)} />
             </p>
         </div>
         <div className="input-group">
